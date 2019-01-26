@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/lavarock100a"
+	"$surfaceprop" "rock"
+
+	"$basetexture2" "nature/lavarock100a_red"
+	"$surfaceprop2" "rock"
+
+	"$normalmap" "nature/lavarock100a_normal"
+	"%tooltexture" "nature/blendlavarocklavarock100a_tooltexture"
+	"%keywords" "vix"
+
+	$detail detail\rock_detail_01
+	$detailscale 11
+	$detailblendfactor 1
+	$detailblendmode 0
+}

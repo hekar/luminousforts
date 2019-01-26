@@ -1,0 +1,29 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"		"Sniper"	
+	"playermodel"		"models/combine_super_soldier.mdl"
+	"selectcmd"		"cls_red_classsniper"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"			"RED"
+
+	// Weapon Info
+	"weapon_1"		"crowbar"
+	"weapon_2"		"hl2_357"
+	"weapon_3"		"crossbow"
+	"weapon_4"		"grenade"
+	"weapon_4_ammo"		"5"
+
+	"limitcvar"		"mp_limit_red_class_sniper"
+
+	"classimage"		"cls_red_classsniper_active"
+	"classimagebg"		"cls_red_classsniper_active_bg"
+
+	// Movement
+	"RunSpeed"		"190"
+	"SprintSpeed"		"320"
+	"ProneSpeed"		"150"
+}

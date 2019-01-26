@@ -1,0 +1,8 @@
+"community"
+{
+	"news"		"http://moddb.com/mods/luminousforts"
+	"forums"	"http://forums.luminousforts.com/"
+	"dev"		"http://luminousforts.wikia.com/wiki/Development"
+	"irc"		""
+	"faq"		"http://www.luminousforts.com/welcome/default/dev"
+}

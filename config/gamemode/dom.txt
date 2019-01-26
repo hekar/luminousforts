@@ -1,0 +1,9 @@
+"dom"
+{
+	"dom_none"		"Domination Free"
+	"dom_build"		"Domination Build"
+	"dom_combat"		"Domination Combat"
+
+	"build_fall_damage"	"0"
+	"combat_fall_damage" "0"
+}

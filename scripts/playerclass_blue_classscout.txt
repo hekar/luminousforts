@@ -1,0 +1,33 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"		"Scout"
+	"playermodel"		"models/combine_soldier.mdl"
+	"selectcmd"		"cls_blue_classscout"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"			"BLUE"
+
+	// Weapon Info
+	"weapon_1"		"sdk_smg1"
+	"weapon_1_ammo"		"250"
+	"weapon_2"		"hl2_357"
+	"weapon_2_ammo"		"6"
+	"weapon_3"		"sdk_crowbar"
+	"weapon_4"		"hl2_frag"
+	"weapon_4_ammo"		"5"
+	
+	"limitcvar"		"mp_limit_blue_class_scout"
+
+	"classimage"		"cls_blue_classscout_active"
+	"classimagebg"		"cls_blue_classscout_active_bg"
+
+	// Movement
+	"RunSpeed"		"320"
+	"SprintSpeed"		"450"
+	"StaminaDrainRate" 	"25"
+	"StaminaRestoreRate" 	"20"
+
+}

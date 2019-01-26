@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$color" "[1 1 1]"
+	"$basetexture" "models/crate/crate_outside_red"
+	"$surfaceprop" "Metal_Box"
+	"$selfIllum" 0
+	"$translucent" 0
+	"$bumpmap" "models/crate/crate_outside_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+}

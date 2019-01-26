@@ -1,0 +1,107 @@
+"resource/ui/WebWindow.res"
+{
+	"WebWindow"
+	{
+		"ControlName"	"CWebWindow"
+		"fieldName"	"WebWindow"
+		"title"		"#lf_webwindow_loading"
+		"xpos"		"200"
+		"ypos"		"50"
+		"wide"		"600"
+		"tall"		"640"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"	"1"
+		"enabled"	"1"
+		"tabPosition"	"0"
+	}
+	
+	"HTMLMessage"
+	{
+		"ControlName"		"NewHTML"
+		"fieldName"		"HTMLMessage"
+		"xpos"			"15"
+		"ypos"			"80"
+		"wide"			"580"
+		"tall"			"540"
+		"autoResize"		"3"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"default"	"1"
+	}
+
+    "External"
+	{
+		"ControlName"	"Button"
+		"fieldName"		"External"
+		"xpos"			"450"
+		"ypos"			"40"
+		"wide"			"74"
+		"tall"			"24"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"External"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"openexternal"
+	}	
+	
+    "Refresh"
+	{
+		"ControlName"	"Button"
+		"fieldName"		"Refresh"
+		"xpos"			"10"
+		"ypos"			"40"
+		"wide"			"20"
+		"tall"			"24"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"R"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"refresn"
+	}    
+    
+	"Stop"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"Stop"
+		"xpos"			"40"
+		"ypos"			"40"
+		"wide"			"20"
+		"tall"			"24"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"S"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"stop"
+		"default"		"1"
+	}
+    
+	"LocationBar"
+	{
+		"ControlName"	"TextEntry"
+		"fieldName"		"LocationBar"
+		"xpos"			"15"
+		"ypos"			"40"
+		"wide"			"400"
+		"tall"			"24"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+        
+        "editable"      "0"
+	}
+}

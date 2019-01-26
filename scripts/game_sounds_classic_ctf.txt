@@ -1,0 +1,151 @@
+
+"CTF.RedTaken"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave" "classic_ctf/bluehas.wav"
+}
+
+"CTF.RedScore"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave" "classic_ctf/redscores.wav"
+}
+
+"CTF.RedDropped"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave" "classic_ctf/bluedrop.wav"
+}
+
+"CTF.BlueTaken"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave" "classic_ctf/redhas.wav"
+}
+
+"CTF.BlueDropped"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave" "classic_ctf/reddrop.wav"
+}
+
+"CTF.BlueScore"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave" "classic_ctf/bluescores.wav"
+}
+
+"CTF.RedReturn"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_LOW"
+
+	"wave" "classic_ctf/redreturn.wav"
+}
+
+"CTF.BlueReturn"
+{
+
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_LOW"
+
+	"wave" "classic_ctf/bluereturn.wav"
+}               
+
+"CTF.BlueWins"
+{
+
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave" "classic_ctf/bluewins.wav"
+}                      
+
+"CTF.RedWins"
+{
+
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave" "classic_ctf/redwin.wav"
+}
+
+"CTF.Draw"
+{
+
+	"channel"	"CHAN_AUTO"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave" "classic_ctf/tie.wav"
+}
+
+
+"Luminousforts.Build"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"	"classic_ctf/buildphase.wav"
+}
+
+"Luminousforts.Combat"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"	"classic_ctf/combatphase.wav"
+}
+
+"Luminousforts.Repair"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"	"weapons/gauss/chargeloop.wav"
+}
+
+"Luminousforts.Freeze"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"	"ambient/energy/electric_loop.wav"
+}

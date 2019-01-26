@@ -1,0 +1,34 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"		"Rocketeer"
+	"playermodel"		"models/combine_soldier_prisonguard.mdl"
+	"selectcmd"		"cls_blue_classrocketeer"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"			"BLUE"
+
+	// Weapon Info
+	"weapon_1"		"sdk_crowbar"
+	"weapon_2"		"hl2_rpg"
+	"weapon_2_ammo"		"0"
+	"weapon_3"		"hl2_pistol"
+	"weapon_3_ammo"		"144"
+	"weapon_4"		"hl2_frag"
+	"weapon_4_ammo"		"5"
+	"weapon_5"		"hl2_slam"
+	"weapon_5_ammo"		"5"
+    	
+	"limitcvar"		"mp_limit_blue_class_rocketeer"
+
+	"classimage"		"cls_blue_classrocketeer_active"
+	"classimagebg"		"cls_blue_classrocketeer_active_bg"
+
+	// Movement
+	"RunSpeed"		"210"
+	"SprintSpeed"		"310"
+	"StaminaDrainRate" 	"15"
+	"StaminaRestoreRate" 	"10"
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "dev/dev_hazzardstripe01a_red"
+	"$surfaceprop" "Metal"
+}

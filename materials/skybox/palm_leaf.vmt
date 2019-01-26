@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "skybox/palm_leaf"
+    "$translucent" 1
+    "$nocull" 1
+}

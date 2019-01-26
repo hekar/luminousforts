@@ -1,0 +1,40 @@
+"blocks"
+{
+	// Worth for each block
+	// Only if lf_block_worth_system is not 0
+	"1x2_worth" "5"
+	"1x3_worth" "9"
+	"1x4_worth" "10"
+	"1x5_worth" "12"
+	"2x2_worth" "9"
+	"2x3_worth" "8"
+	"2x4_worth" "18"
+	"2x5_worth" "25"
+	"3x3_worth" "35"
+	"3x4_worth" "45"
+	"3x5_worth" "70"
+
+	//old blocks
+	"1_5x4_worth" "25"
+	"1x1x2_worth" "70"
+
+
+	// Health of each block type
+	// Only if lf_block_unique_health is 0
+	//300 + (450*block_worth)
+	"1x2_health" "400"
+	"1x3_health" "650"
+	"1x4_health" "800"
+	"1x5_health" "900"
+	"2x2_health" "800"
+	"2x3_health" "1000"
+	"2x4_health" "1200"
+	"2x5_health" "1400"
+	"3x3_health" "1800"
+  "3x4_health" "1500"
+  "3x5_health" "2000"
+
+	//old blocks
+	"1_5x4_health" "1200"
+	"1x1x2_health" "2000"
+}

@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "/selfillum/BlueGlow"
+	"$surfaceprop" "metal"
+	"$selfilum" "1"
+}

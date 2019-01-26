@@ -1,0 +1,30 @@
+"lf_desert"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"name" "d1_canals.util_windgusts"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"name" "general.concrete_quiet"
+		"volume" "0.25"
+	}
+	
+	"playsoundscape"
+	{
+		"name" "coast.util_crumblycliff"
+		"volume" "0.25"
+	}
+
+		"playsoundscape"
+	{
+		"name" "coast.util_metalstress"
+		"volume" "0.5"
+	}
+	
+}
+

@@ -1,0 +1,34 @@
+	PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"		"Sniper"	
+	"playermodel"		"models/police.mdl"
+	"selectcmd"		"cls_blue_classsniper"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"			"BLUE"
+
+  "Health"    "70"
+  
+	// Weapon Info
+	"weapon_1"		"sdk_crowbar"
+	"weapon_2"		"hl2_pistol"
+	"weapon_2_ammo"		"48"
+	"weapon_3"		"hl2_crossbow"
+	"weapon_3_ammo"		"11"
+	"weapon_4"		"hl2_frag"
+	"weapon_4_ammo"		"5"
+
+	"limitcvar"		"mp_limit_blue_class_sniper"
+
+	"classimage"		"cls_blue_classsniper_active"
+	"classimagebg"		"cls_blue_classsniper_active_bg"
+
+	// Movement
+	"RunSpeed"		"270"
+	"SprintSpeed"		"440"
+	"StaminaDrainRate" 	"50"
+	"StaminaRestoreRate" 	"20"
+}

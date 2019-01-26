@@ -1,0 +1,74 @@
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+//
+//	Luminous Forts Forge Game Data
+//	Dominatioon Gamemode
+//	
+//	Credits:
+//		Hekar Khani
+//
+//	A special thanks to all the past and present developers of the Luminous Forts mod 
+// 	and all the effort they put in
+//	Developing a mod is far harder than it looks (especially with the Source SDK)
+//
+//	If you have any suggestions or requests for other entities
+//		Email: hekark@gmail.com
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+// All these entities are prefixed with lfb_*
+
+//================================================================
+// Prop Entities
+//================================================================
+
+//================================================================
+// Item Entities
+//================================================================
+
+//================================================================
+// Point Entities
+//================================================================
+
+//================================================================
+// Logic Entities
+//================================================================
+
+//================================================================
+// Info Entities
+//================================================================
+
+//================================================================
+// Brush and Trigger Entities
+//================================================================
+@SolidClass base(EnableDisable) = lfd_capture_zone : "Luminousforts 1.0: Domination Capture Zone"
+[
+	SecondsToCapture(integer) : "Seconds to Capture" : 12
+	PointIncrease(integer) : "Points Increase per Interval" : 0
+	PointIncreaseInterval(integer) : "Point Increase Interval (seconds)" : 5
+
+	DisableInBuild(choices) : "Disable in Build" : 1 =
+	[
+		1 : "True"
+		2 : "False"
+	]
+
+  Locked(choices) : "Capture point is locked and cannot be captured" : 0 =
+  [
+      0 : "Unlocked"
+      1 : "Locked"
+  ]
+    
+	ZoneId(integer) : "Zone id of the Node" : 0
+	ParentZone1(integer) : "Id of the 1st parent Node" : 0
+	ParentZone2(integer) : "Id of the 2nd parent Node " : 0
+	ParentZone3(integer) : "Id of the 3rd parent Node" : 0
+
+	input DisablesCaptures(void) : "Disable the ability to capture"
+	input EnableCaptures(void) : "Enable the ability to capture"
+	input Lock(void) : "Lock the capture point (same as disable, but shows the lock icon)"
+	input Unlock(void) : "Unlock the capture point (same as enable, but removes the lock icon)"
+
+	output OnCaptured(void) : "Fired on capture"
+	output OnCapturedBy(integer) : "Fired on capture with teamnumber"
+	output OnLost(integer) : "Fired on capture point lost with teamnumber"
+]

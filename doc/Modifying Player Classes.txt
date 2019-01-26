@@ -1,0 +1,36 @@
+Based on Source SDK's document
+
+Adding a new player class to the Source SDK requires a mix of C++ and editing keyvalue "scripts"
+
+It's actually a fairly simple task.
+
+Just keep in mind that each gamerule determines its own classes.
+
+
+For example if you want to edit the classes for CClassicGameRules:
+
+1. ClassicGameRules.cpp
+
+	You will see g_ClassicGameRules_Classes_Blue and g_ClassicGameRules_Classes_Red and a constant CLASSICGAMERULES_CLASSCOUNT.
+	You must have the same number of classes for each team for now.
+	
+	The two arrays serve as internals identifiers and identifiers for which playerclass scripts to load in the "luminousforts/scripts" directory.
+	
+2. Create a playerclass_blue_class*.txt and playerclass_red_class*.txt script for your class using another playerclass file as your template.
+3.
+	
+Step 1: Open sdk_shareddefs.h and sdk_shareddefs.cpp
+	(.h) increment the define SDK_NUM_PLAYERCLASSES to reflect the new count of player classes you will have
+
+	(.cpp) modify pszPossiblePlayerModels, and add any player models you'll be using.
+
+	if You're using teams; 
+	(.cpp) modify both pszTeamBlueClasses, and pszRedBlueClasses to add your new player class.
+	if you're not using teams:
+	(.cpp) modify pszPlayerClasses and add your new player class.
+
+
+Step 3: create new .res file's for your new classes inside the "classes" folder - This is for the player class screen, where it shows the information for the class.
+Step 4: modify resource\ui\classmenu_XXX.res to add new buttons to select your new classes.
+Step 5: modify your language.txt file to add any new localization strings (ie: descriptions) you're using.
+Step 6: Compile your mod, load it up, and if everything was successful you should have a new class to choose!	

@@ -1,0 +1,512 @@
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+//
+//	Luminous Forts Forge Game Data
+//	Classic Gamemode
+//	
+//	Credits:
+//		Hekar Khani
+//		Sam (Arenaceous)
+//
+//	A special thanks to all the past and present developers of the Luminous Forts mod 
+// 	and all the effort they put in
+//	Developing a mod is far harder than it looks (especially with the Source SDK)
+//
+//	If you have any suggestions or requests for other entities
+//		Email: hekark@gmail.com
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+// All these entities are prefixed with lfc_*
+
+//================================================================
+// Prop Entities
+//================================================================
+@BaseClass = TwoTeams
+[
+	team(choices) : "Team" : 2 =
+	[
+		2 : "Blue"
+		3 : "Red"
+	]
+]
+
+@BaseClass = ThreeTeams
+[
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Both"
+		2 : "Blue"
+		3 : "Red"
+	]
+]
+
+@BaseClass = BlockBase
+[
+  CountBlock(choices) : "CountBlock" : 1 =
+  [
+    0 : "False"
+    1 : "True"
+  ]
+  
+  Frozen(choices) : "Frozen" : 1 =
+  [
+    0 : "False"
+    1 : "True"
+  ]
+  
+	team(choices) : "Team" : 2 =
+	[
+		2 : "Blue"
+		3 : "Red"
+	]  
+  
+  BlockWorth(integer) : "BlockHealth" : 4000
+  
+  BlockDestructable(choices) : "BlockDestructable" : 1 =
+  [
+    0 : "False"
+    1 : "True"
+  ]
+  
+  input Freeze(void) : "Freeze the block"
+  input UnFreeze(void) : "UnFreeze the block"
+  input Dispose(void) : "Dispose the block"
+  input EnableDestructable(void) : "Enable Destruction on the block"
+  input DisableDestructable(void) : "Disable Destruction on the block"
+  input SetHealth(integer) : "Change the block health"
+  output OnDisposed(void) : "On Block Being Disposed"
+  output OnFrozen(void) : "On Block Frozen"
+  output OnUnFrozen(void) : "On Block UnFrozen"
+]
+
+@PointClass base(Angles,Targetname,BlockBase) studio("models/construct/blocks/rect_1x2.mdl")= lfc_prop_block1x2 : "Luminousforts 1.0: 1x2 Block"
+[
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Neutral"
+		2 : "Blue"
+		3 : "Red"
+	]
+
+	skin(choices) : "Skin" : 0 =
+	[
+		0 : "Neutral"
+		7 : "Blue"
+		14 : "Red"
+	]
+]
+
+@PointClass base(Angles,Targetname,BlockBase) studio("models/construct/blocks/rect_1x3.mdl")= lfc_prop_block1x3 : "Luminousforts 1.0: 1x3 Block"
+[
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Neutral"
+		2 : "Blue"
+		3 : "Red"
+	]
+
+	skin(choices) : "Skin" : 0 =
+	[
+		0 : "Neutral"
+		7 : "Blue"
+		14 : "Red"
+	]
+]
+
+@PointClass base(Angles,Targetname,BlockBase) studio("models/construct/blocks/rect_1x4.mdl")= lfc_prop_block1x4 : "Luminousforts 1.0: 1x4 Block"
+[
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Neutral"
+		2 : "Blue"
+		3 : "Red"
+	]
+
+	skin(choices) : "Skin" : 0 =
+	[
+		0 : "Neutral"
+		7 : "Blue"
+		14 : "Red"
+	]
+]
+
+@PointClass base(Angles,Targetname,BlockBase) studio("models/construct/blocks/rect_1x5.mdl")= lfc_prop_block1x5 : "Luminousforts 1.0: 1x5 Block"
+[
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Neutral"
+		2 : "Blue"
+		3 : "Red"
+	]
+
+	skin(choices) : "Skin" : 0 =
+	[
+		0 : "Neutral"
+		7 : "Blue"
+		14 : "Red"
+	]
+]
+
+@PointClass base(Angles,Targetname,BlockBase) studio("models/construct/blocks/rect_2x2.mdl")= lfc_prop_block2x2 : "Luminousforts 1.0: 2x2 Block"
+[
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Neutral"
+		2 : "Blue"
+		3 : "Red"
+	]
+
+	skin(choices) : "Skin" : 0 =
+	[
+		0 : "Neutral"
+		7 : "Blue"
+		14 : "Red"
+	]
+]
+
+@PointClass base(Angles,Targetname,BlockBase) studio("models/construct/blocks/rect_2x3.mdl")= lfc_prop_block2x3 : "Luminousforts 1.0: 2x3 Block"
+[
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Neutral"
+		2 : "Blue"
+		3 : "Red"
+	]
+
+	skin(choices) : "Skin" : 0 =
+	[
+		0 : "Neutral"
+		7 : "Blue"
+		14 : "Red"
+	]
+]
+
+@PointClass base(Angles,Targetname,BlockBase) studio("models/construct/blocks/rect_2x4.mdl")= lfc_prop_block2x4 : "Luminousforts 1.0: 2x4 Block"
+[
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Neutral"
+		2 : "Blue"
+		3 : "Red"
+	]
+
+	skin(choices) : "Skin" : 0 =
+	[
+		0 : "Neutral"
+		7 : "Blue"
+		14 : "Red"
+	]
+]
+
+@PointClass base(Angles,Targetname,BlockBase) studio("models/construct/blocks/rect_2x5.mdl")= lfc_prop_block2x5 : "Luminousforts 1.0: 2x5 Block"
+[
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Neutral"
+		2 : "Blue"
+		3 : "Red"
+	]
+
+	skin(choices) : "Skin" : 0 =
+	[
+		0 : "Neutral"
+		7 : "Blue"
+		14 : "Red"
+	]
+]
+
+@PointClass base(Angles,Targetname,BlockBase) studio("models/construct/blocks/rect_3x3.mdl")= lfc_prop_block3x3 : "Luminousforts 1.0: 3x3 Block"
+[
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Neutral"
+		2 : "Blue"
+		3 : "Red"
+	]
+
+	skin(choices) : "Skin" : 0 =
+	[
+		0 : "Neutral"
+		7 : "Blue"
+		14 : "Red"
+	]
+]
+
+@PointClass base(Angles,Targetname,BlockBase) studio("models/construct/blocks/rect_3x4.mdl")= lfc_prop_block3x4 : "Luminousforts 1.0: 3x4 Block"
+[
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Neutral"
+		2 : "Blue"
+		3 : "Red"
+	]
+
+	skin(choices) : "Skin" : 0 =
+	[
+		0 : "Neutral"
+		7 : "Blue"
+		14 : "Red"
+	]
+]
+
+
+@PointClass base(Angles,Targetname,BlockBase) studio("models/construct/blocks/rect_3x5.mdl")= lfc_prop_block3x5 : "Luminousforts 1.0: 3x5 Block"
+[
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Neutral"
+		2 : "Blue"
+		3 : "Red"
+	]
+
+	skin(choices) : "Skin" : 0 =
+	[
+		0 : "Neutral"
+		7 : "Blue"
+		14 : "Red"
+	]
+]
+
+@PointClass base(Angles,Targetname,ThreeTeams,EnableDisable) studio("models/roller.mdl")= lfc_prop_flag : "Luminousforts 1.0: Flag"
+[
+  input ChangeSpawnLocation(void) : "Change the respawn location for the flag"
+
+	output OnScore(void) : "On flag capture"
+	output OnPickup(void) : "On the flag being picked up"
+	output OnDropped(void) : "On dropping of flag"
+	output OnReturned(void) : "On return of flag"
+]
+
+//================================================================
+// Item Entities
+//================================================================
+@PointClass base(Targetname,Angles,ThreeTeams) studio("models/crate/crate.mdl")= lfc_item_ammo_crate : "Luminousforts 1.0: Ammo Crate"
+[
+	skin(choices) : "Skin" : 1 =
+	[
+		1 : "Blue"
+		2 : "Red"
+		3 : "Both"
+	]
+	input InputKill(void) : "Kill the crate"
+	output OnUsed(void) : "On crate opened"
+]
+
+
+@PointClass base(Targetname,Angles,ThreeTeams) studio( "models/props_combine/health_charger001.mdl" ) = lfc_item_healthcharger : "Luminousforts 1.0: Health Charger"
+[
+	_minlight(string) : "Minimum light level"	
+	// Outputs
+	output OutRemainingHealth(float) : "Remaining Health."
+	output OnPlayerUse(void) : "Fired when the player +USEs the charger."
+]
+
+//================================================================
+// Point Entities
+//================================================================
+@PointClass base(Angles,Targetname,TwoTeams,EnableDisable) iconsprite("editor/blockspawner.vmt") = lfc_point_blockspawner : "Luminousforts 1.0: Block spawner"
+[
+	block(choices) : "Block Number" : 1 =
+	[
+		1 : "1x2"
+		2 : "1x3"
+		3 : "1x4"
+		4 : "1x5"
+		5 : "2x2"
+		6 : "2x3"
+		7 : "2x4"
+		8 : "2x5"
+		9 : "3x3"
+		10 : "3x4"
+		11 : "3x5"
+	]
+	
+	input Spawn(void) : "Spawns a block"
+	output OnSpawn(void) : "On block spawn"
+]
+
+@PointClass base(Angles,Targetname,TwoTeams,EnableDisable) iconsprite("editor/blockspawner_rand.vmt") = lfc_random_blockspawner : "Luminousforts 1.0: Random Block spawner"
+[
+  input RandomSpawn(void) 
+]
+
+//================================================================
+// Logic Entities
+//================================================================
+
+//================================================================
+// Info Entities
+//================================================================
+
+//================================================================
+// Brush and Trigger Entities
+//================================================================
+@SolidClass base(EnableDisable,ThreeTeams) = lfc_trigger_flagzone : "Luminousforts 1.0: FlagCap Zone"
+[
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Both teams score"
+		2 : "Blue Scores"
+		3 : "Red Scores"
+	]
+]
+
+@SolidClass = lfc_trigger_nofreeze : "Luminousforts 1.0: No blocks may be frozen in this zone"
+[
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Both teams cannot freeze"
+		2 : "Blue cannot freeze"
+		3 : "Red cannot freeze"
+	]
+
+	input AllowFreeze(void)
+	input DisallowFreeze(void)
+	input AllowRedFreeze(void)
+	input DisallowRedFreeze(void)
+	input AllowBlueFreeze(void)
+	input DisallowBlueFreeze(void)
+
+	output OnBlockTouch(void)
+	output OnRedBlockTouch(void)
+	output OnBlueBlockTouch(void)
+	output OnRedPlayerTouch(void)
+	output OnBluePlayerTouch(void)
+	
+]
+
+@SolidClass = lfc_trigger_disposer : "Luminousforts 1.0: disposer"
+[
+	dissolve(choices) : "Dissolve Blocks" : 0 = 
+	[
+		0 : "Do not dissolve, just remove"
+		1 : "Use dissolve effect on blocks"
+	]
+	
+	team(choices) : "Team" : 1 =
+	[
+		1 : "Everything is disposed"
+		2 : "Blue team may touch"
+		3 : "Red team may touch"
+	]
+	
+	output OnDisposeBlock(void) : "On the disposal of a block"
+	output OnDisposePlayer(void) : "On the disposal of a player (dissolve a player)"	
+]
+
+@SolidClass base(Targetname, Parentname, Origin, RenderFields,DamageFilter, Button) = lfc_button_build : 
+	"func_button that only works in the build phase"
+[
+	movedir(angle) : "Move Direction (Pitch Yaw Roll)" : "0 0 0" : "Specifies the direction of motion to move when the button is used."
+	speed(integer) : "Speed" : 5 : "The speed that the button moves, in inches per second."
+	health(integer) : "Health (Obsolete)" : 0 : "Legacy method of specifying whether or not the button can be shot to activate it. Use the 'Damage Activates' spawnflag instead."
+	lip(integer) : "Lip" : 0 : "The amount, in inches, of the button to leave sticking out of the wall it recedes into when pressed. Negative values make the button recede even further into the wall."
+	master(string) : "Master (Obsolete)" : : "Legacy support: The name of a master entity. If the master hasn't been activated, this button cannot be pressed."
+	sounds(choices) : "Sounds" : 0 = 
+	[
+		0: "None (Silent)"
+		1: "Big zap & Warmup"
+		2: "Access Denied"
+		3: "Access Granted"
+		4: "Quick Combolock"
+		5: "Power Deadbolt 1"
+		6: "Power Deadbolt 2"
+		7: "Plunger"
+		8: "Small zap"
+		9: "Keycard Sound"
+		10: "Buzz"
+		11: "Buzz Off"
+		12: "latch locked"
+		13: "Latch Unlocked"
+		14: "Lightswitch"
+		15: "small bleek"
+		16: "small deny"
+		17: "small doop"
+		18: "small tech deny"
+		19: "click and combine screen fuzz"
+		20: "roomy beep"
+		21: "lever or wheel: turn + move sqeek"
+		22: "lever or wheel: latch + release gas"
+		23: "lever or wheel: ratchet + sqeek"
+		24: "lever or wheel: large ratchet"
+		25: "lever or wheel: clanky + gas release"
+		26: "lever or wheel: latch + large metal thud"
+		27: "lever or wheel: smaller ratchet"
+		28: "lever or wheel: smaller lever move"
+		31: "shock buzz"
+		32: "clickbeep"
+		33: "tech blip"
+		34: "clickbeepbeep open"
+		35: "small high blip"
+		36: "small tech fuzz blip"
+		37: "small click bleep (change to lightswitch)"
+		40: "combine door lock - locked"
+		41: "combine blip growl"
+		42: "combine squick growl"
+		43: "combine whine purr"
+		44: "combine click talk"
+		45: "combine click growl fizz"
+		46: "combine click fizz (deny)"
+		47: "combine click talker"
+	]	
+	wait(integer) : "Delay Before Reset (-1 stay)" : 3 : "Amount of time, in seconds, after the button has been pressed before it returns to the starting position. Once it has returned, it can be used again. If the value is set to -1, the button never returns."
+	spawnflags(flags) =
+	[
+		1: "Don't move" : 0
+		32: "Toggle" : 0
+		256: "Touch Activates": 0
+		512: "Damage Activates": 0
+		1024: "Use Activates" : 1
+		2048: "Starts locked" : 0
+		4096: "Sparks" : 0
+	]
+	locked_sound(choices) : "Locked Sound" : 0 : "Sound played when the player tries to use the button, and fails because it's locked." = 
+	[
+		0: "None"
+		2: "Access Denied"
+		8: "Small zap"
+		10: "Buzz"
+		11: "Buzz Off"
+		12: "Latch Locked"
+	]
+	unlocked_sound(choices) : "Unlocked Sound" : 0 : "Sound played when the button is unlocked." = 
+	[
+		0: "None"
+		1: "Big zap & Warmup"
+		3: "Access Granted"
+		4: "Quick Combolock"
+		5: "Power Deadbolt 1"
+		6: "Power Deadbolt 2"
+		7: "Plunger"
+		8: "Small zap"
+		9: "Keycard Sound"
+		10: "Buzz"
+		13: "Latch Unlocked"
+		14: "Lightswitch"
+	]
+	locked_sentence(choices) : "Locked Sentence" : 0 : "A sentence played when the player tries to use the button, and fails because it's locked." = 
+	[
+		0: "None"
+		1: "Gen. Access Denied"
+		2: "Security Lockout"
+		3: "Blast Door"
+		4: "Fire Door"
+		5: "Chemical Door"
+		6: "Radiation Door"
+		7: "Gen. Containment"
+		8: "Maintenance Door"
+		9: "Broken Shut Door"
+	]
+	unlocked_sentence(choices) : "Unlocked Sentence" : 0 : "A sentence played when the button is unlocked." = 
+	[
+		0: "None"
+		1: "Gen. Access Granted"
+		2: "Security Disengaged"
+		3: "Blast Door"
+		4: "Fire Door"
+		5: "Chemical Door"
+		6: "Radiation Door"
+		7: "Gen. Containment"
+		8: "Maintenance area"
+	]
+	_minlight(string) : "Minimum Light Level" : : "The minimum level of ambient light that hits this brush."
+]

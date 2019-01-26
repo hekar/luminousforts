@@ -1,0 +1,123 @@
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+//
+//	Luminous Forts Forge Game Data
+//	Custom Gamemode Entity Definitions
+//	
+//	Credits:
+//		Hekar Khani
+//		Brad$
+//
+//	A special thanks to all the past and present developers of the Luminous Forts mod 
+// 	and all the effort they put in
+//	Developing a mod is far harder than it looks (especially with the Source SDK)
+//
+//	If you have any suggestions or requests for other entities
+//		Email: hekark@gmail.com
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+// All these entities are for custom gameplay
+
+//================================================================
+// Prop Entities
+//================================================================
+
+//================================================================
+// Item Entities
+//================================================================
+
+//================================================================
+// Point Entities
+//================================================================
+@PointClass base(Angles, Targetname, TwoTeams, EnableDisable, Studiomodel) iconsprite("editor/blockspawner_cus.vmt") = lfcus_point_blockspawner : "Luminousforts Custom: Custom Blockspawner"
+[
+	FollowBlockLimit(choices) : "FollowBlockLimit" : 1 =
+	[
+		1 : "True"
+		2 : "False"
+	]
+
+	BlockDestructable(choices) : "BlockDestructable" : 1 =
+	[
+		0 : "False"
+		1 : "True"
+	]
+
+	BlockHealth(integer) : "BlockHealth" : 4000
+
+	BlockWorth(choices) : "BlockWorth" : 1 =
+	[
+		1 : "1x2"
+		2 : "1x3"
+		3 : "1x4"
+		4 : "1x5"
+		5 : "2x2"
+		6 : "2x3"
+		7 : "2x4"
+		8 : "2x5"
+		9 : "3x3"
+		10 : "3x4"
+		11 : "3x5"
+	]
+	input Spawn(void) : "Spawn block"
+	output OnSpawn(void) : "On block spawn"
+]
+
+@PointClass base(Angles,Targetname,ThreeTeams,BlockBase) iconsprite("editor/blockspawner_prop.vmt") = lfcus_prop_block_custom : "Luminousforts 1.0: Custom Block"
+[
+  BlockModel(string) : "BlockModel" : "models/construct/blocks/rect_1x2.mdl"
+]
+
+//================================================================
+// Logic Entities
+//================================================================
+@PointClass iconsprite("editor/blockmanager.vmt") =  lfcus_block_manager : "Luminousforts Custom: Global manager for blocks"
+[
+	input DisableBlockDestruction(void) : "Enable the destructable attribute on blocks"
+	input EnableBlockDestruction(void) : "Disable the destructable attribute on blocks"
+	
+	input SetBlockLimit(integer) : "Change the block limit for both teams"
+	input SetRedBlockLimit(integer) : "Change the block limit for the red team"
+	input SetBlueBlockLimit(integer) : "Change the block limit for the blue team"
+	
+	output OnRedBlockLimitReached(void) : "Triggered when the Red team reaches their block limit"
+	output OnBlueBlockLimitReached(void) : "Triggered when the Blue team reaches their block limit"
+	output OnRedBlockSpawned(void) : "Triggered when a Red block is spawned"
+	output OnBlueBlockSpawned(void) : "Triggered when a Blue block is spawned"
+]
+
+@PointClass = lfcus_manager_hud : "Luminousforts Custom: Hud Manager"
+[
+	spawnflags(flags) =
+	[
+		0 : "No Hud Elements" : 0 // 0 means the flag is not-ticked by default
+		1 : "All Hud Elements" : 1 // 1 means the flag is ticked by default
+		2 : "Block Health" : 0
+		4 : "Flag Carrier" : 0
+		8 : "Flag Compass" : 0
+		16 : "Flag Position" : 0
+		32 : "Phase Time" : 0
+		64 : "Player Markers" : 0
+		128 : "Freeze Progress" : 0
+		256 : "Capture Points" : 0
+		512 : "Capture Positions" : 0
+	]
+
+	input EnableHudElement(integer)
+	input DisableHudElement(integer)
+]
+@PointClass = lfcus_score_manager : "Luminousforts Custom: Score Manager"
+[
+
+	input GiveRedPoints(integer)
+	input GiveBluePoints(integer)
+	input TakeRedPoints(integer)
+	input TakeBluePoints(integer)
+]
+
+//================================================================
+// Info Entities
+//================================================================
+
+//================================================================
+// Brush and Trigger Entities
+//================================================================

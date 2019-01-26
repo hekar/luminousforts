@@ -1,0 +1,5 @@
+*.so text !filter !merge !diff
+*.bsp text !filter !merge !diff
+*.dll text !filter !merge !diff
+*.vtf text !filter !merge !diff
+*.vmf text !filter !merge !diff

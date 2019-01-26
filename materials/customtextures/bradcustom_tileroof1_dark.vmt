@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "CustomTextures/bradcustom_tileroof1_dark"
+	"$bumpmap" "CustomTextures/bradcustom_tileroof1_bump"
+	"$surfaceprop" "Metal"
+	"%keywords" "brad"
+}

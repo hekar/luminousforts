@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "gwen/DefaultSkin"
+	"$translucent" 1
+}

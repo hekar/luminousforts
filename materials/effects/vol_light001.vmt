@@ -1,0 +1,25 @@
+"UnlitGeneric"
+{
+    "$baseTexture" "models/effects/vol_light001"
+    "$nocull" "1"
+
+    "$additive" "1"
+//  "$translucent" "1"
+    "$nofullbright" 1
+
+
+"Proxies"
+{
+
+    "TextureScroll"
+    {
+        "texturescrollvar" "$basetexturetransform"
+        "texturescrollrate" .025
+        "texturescrollangle" -90
+    }
+
+
+}
+
+
+}

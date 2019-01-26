@@ -1,0 +1,19 @@
+"UnlitGeneric" 
+{
+	"$Translucent" "1"
+	"$basetexture" "vgui\scoreboard\sf_flagHolder_b" 
+	"$ignorez"     "1"
+"Proxies"
+	{
+
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .02
+			"texturescrollangle" 90
+		}
+	
+	}
+
+} 

@@ -1,0 +1,4 @@
+"MP3List"
+{
+	"0"		"c:\program files\steam\steamapps\sourcemods\luminousforts\sound\mod_music"
+}

@@ -1,0 +1,277 @@
+"resource/ui/MainMenu.res"
+{
+	"MainMenu"
+	{
+		"ControlName"		"CMainMenu"
+		"fieldName"		"MainMenu"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"0"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+	}
+
+	"BackgroundImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundImage"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"r1"
+		"tall"			"r1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"textAlignment"	"center"
+		"image"			"button/button.vmt"
+		"scaleImage"	"1"
+		"border"		"0"
+	}
+
+	"Resume"
+	{
+		"ControlName"	"BitmapButton"
+		"fieldName"		"Resume"
+		"xpos"			"0"
+		"ypos"			"80"
+		"wide"			"200"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"Resume"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"1"
+		"command"		"resume"
+		"font"			"LFMenuItem"
+		
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedFgColor_override" "64 128 220 255"
+	}
+
+	"Disconnect"
+	{
+		"ControlName"	"BitmapButton"
+		"fieldName"		"Disconnect"
+		"xpos"			"0"
+		"ypos"			"120"
+		"wide"			"200"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"Disconnect"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"1"
+		"command"		"disconnect"
+		"font"			"LFMenuItem"
+
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedFgColor_override" "64 128 220 255"
+	}	
+	
+	
+	"Community"
+	{
+		"ControlName"	"BitmapButton"
+		"fieldName"		"Community"
+		"xpos"			"0"
+		"ypos"			"160"
+		"wide"			"200"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Community"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"1"
+		"command"		"community"
+		"font"			"LFMenuItem"
+		
+		//"enabledImage"		"materials/vgui/button/button.vmt"
+		//"mouseOverImage"	"materials/vgui/button/button.vmt"
+		//"pressedImage"		"materials/vgui/button/button.vmt"
+		//"disabledImage"		"materials/vgui/button/button.vmt"
+		
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedFgColor_override" "64 128 220 255"
+	}
+
+	"Tutorials"
+	{
+		"ControlName"	"BitmapButton"
+		"fieldName"		"Tutorials"
+		"xpos"			"0"
+		"ypos"			"200"
+		"wide"			"200"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Tutorials"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"1"
+		"command"		"tutorials"
+		"font"			"LFMenuItem"
+		
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedFgColor_override" "64 128 220 255"
+	}	
+	
+	"FindServers"
+	{
+		"ControlName"	"BitmapButton"
+		"fieldName"		"FindServers"
+		"xpos"			"0"
+		"ypos"			"240"
+		"wide"			"200"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Find Servers"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"1"
+		"command"		"findservers"
+		"default"		"1"
+		"font"			"LFMenuItem"
+		
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedFgColor_override" "64 128 220 255"
+	}
+
+	"ListenServer"
+	{
+		"ControlName"	"BitmapButton"
+		"fieldName"		"ListenServer"
+		"xpos"			"0"
+		"ypos"			"280"
+		"wide"			"200"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Listen Server"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"1"
+		"command"		"createserver"
+		"font"			"LFMenuItem"
+		
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedFgColor_override" "64 128 220 255"
+	}
+
+	"Options"
+	{
+		"ControlName"	"BitmapButton"
+		"fieldName"		"Options"
+		"xpos"			"0"
+		"ypos"			"320"
+		"wide"			"200"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Options"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"1"
+		"command"		"options"
+		"font"			"LFMenuItem"
+		
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedFgColor_override" "64 128 220 255"
+	}
+	
+	"Credits"
+	{
+		"ControlName"	"BitmapButton"
+		"fieldName"		"Credits"
+		"xpos"			"0"
+		"ypos"			"360"
+		"wide"			"200"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Credits"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"1"
+		"command"		"credits"
+		"font"			"LFMenuItem"
+		
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedFgColor_override" "64 128 220 255"
+	}
+
+	"Quit"
+	{
+		"ControlName"	"BitmapButton"
+		"fieldName"		"Quit"
+		"xpos"			"0"
+		"ypos"			"400"
+		"wide"			"200"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Quit"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"1"
+		"command"		"quit"
+		"font"			"LFMenuItem"
+		
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedFgColor_override" "64 128 220 255"
+	}
+}

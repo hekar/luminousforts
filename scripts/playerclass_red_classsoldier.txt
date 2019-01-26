@@ -1,0 +1,34 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"		"Soldier"	
+	"playermodel"		"models/humans/group03/male_01.mdl"
+	"selectcmd"		"cls_red_classsoldier"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"			"RED"
+  
+  "Health"    "120"
+
+	// Weapon Info
+	"weapon_1"		"hl2_ar2"
+	"weapon_1_ammo"		"240"
+	"weapon_2"		"hl2_357"
+	"weapon_2_ammo"		"144"
+	"weapon_3"		"sdk_crowbar"
+	"weapon_4"		"hl2_frag"
+	"weapon_4_ammo"		"5"
+
+	"limitcvar"		"mp_limit_red_class_soldier"
+
+	"classimage"		"cls_red_classsoldier_active"
+	"classimagebg"		"cls_red_classsoldier_active_bg"
+
+	// Movement
+	"RunSpeed"		"250"
+	"SprintSpeed"		"400"
+	"StaminaDrainRate" 	"30"
+	"StaminaRestoreRate" 	"25"
+}

@@ -1,0 +1,33 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"		"Engineer"	
+	"playermodel"		"models/humans/group03/male_01.mdl"
+	"selectcmd"		"cls_red_classengineer"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"			"RED"
+
+	// Weapon Info
+	"weapon_1"		"hl2_shotgun"
+	"weapon_1_ammo"		"36"
+	"weapon_2"		"hl2_pistol"
+	"weapon_2_ammo"		"144"
+	"weapon_3"		"sdk_crowbar"
+	"weapon_4"		"lf_engineerfrag"
+	"weapon_4_ammo"		"5"
+	"weapon_5"		"lf_combat_cannon"
+
+	"limitcvar"		"mp_limit_red_class_engineer"
+
+	"classimage"		"cls_red_classengineer_active"
+	"classimagebg"		"cls_red_classengineer_active_bg"
+
+	// Movement
+	"RunSpeed"		"210"
+	"SprintSpeed"		"420"
+	"StaminaDrainRate" 	"30"
+	"StaminaRestoreRate" 	"20"
+}

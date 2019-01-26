@@ -1,0 +1,56 @@
+"resource/ui/Options_Game.res"
+{
+	"PanelOptionsGame"
+	{
+		"ControlName"	"CPanelOptionsGame"
+		"fieldName"		"PanelOptionsGame"
+		"xpos"			"300"
+		"ypos"			"200"
+		"wide"			"505"
+		"tall"			"408"
+		"autoResize"	"3"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+	}
+	
+	"EditConfigLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"EditConfigLabel"
+		"xpos"			"15"
+		"ypos"			"20"
+		"wide"			"160"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Edit Auto Configuration"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"1"
+	}
+	
+	"EditConfigButton"
+	{
+		"ControlName"	"ConButton"
+		"fieldName"		"EditConfigButton"
+		"xpos"			"280"
+		"ypos"			"20"
+		"wide"			"64"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tooltiptext"	"Edit autoexec.cfg"
+		"labelText"		"Edit"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"concommand"	"smod_panel_editor_show"
+		"default"		"1"
+	}
+}

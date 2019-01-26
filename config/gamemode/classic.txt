@@ -1,0 +1,8 @@
+"classic"
+{
+	"ctf_build"		"CTF Build"
+	"ctf_combat"		"CTF Combat"
+
+	"build_fall_damage"	"0"
+	"combat_fall_damage" "0"
+}

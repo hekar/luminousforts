@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "CustomTextures/bradcustom_metalpanel2_dark"
+	"$bumpmap" "CustomTextures/bradcustom_metalpanel2_bump"
+	"%keywords" "brad"
+}

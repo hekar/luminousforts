@@ -1,0 +1,4 @@
+h1. LuminousForts Readme
+
+Put the luminousforts directory into the sourcemods folder under your steamapps directory.
+This is usually located in C:\Program Files\Steam\steamapps\sourcemods.

@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "samuka97/teamconcrete_blue"
+	"$surfaceprop" "concrete"
+	$detail detail\noise_detail_01
+	$detailscale 7.74
+	$detailblendfactor 0.8
+	$detailblendmode 0
+}

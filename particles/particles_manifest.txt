@@ -1,0 +1,6 @@
+particles_manifest
+{
+	file		"particles/lf_railgun.pcf"
+	file		"particles/electrical_fx.pcf"
+	file		"!particles/rocket.pcf"
+}

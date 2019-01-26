@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"vgui\logos\graffiti_blue_team"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.250"
+}

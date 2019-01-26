@@ -1,0 +1,152 @@
+"resource/ui/Community.res"
+{
+	"GUISideMenu"
+	{
+		"ControlName"		"CGUISideMenu"
+		"fieldName"		"GUISideMenu"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"50"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+	}
+	
+	"MP3player"
+	{
+		"ControlName"		"ConButton"
+		"fieldName"		"MP3player"
+		"xpos"			"10"
+		"ypos"			"10"
+		"wide"			"32"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"hovertext"	"Music Player"
+		"labelText"		"A"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"concommand"		"smod_panel_mp3_toggle"
+		"default"		"1"
+		
+		"font"			"LF_icon"
+    
+    "sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	
+	"Options"
+	{
+		"ControlName"		"ConButton"
+		"fieldName"		"Options"
+		"xpos"			"10"
+		"ypos"			"50"
+		"wide"			"32"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"hovertext"	"Luminousforts Options"
+		"labelText"		"I"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"concommand"		"smod_panel_options_toggle"
+		"default"		"1"
+		
+		"font"			"LF_icon"
+    
+    "sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	
+	"PlayerList"
+	{
+		"ControlName"		"ConButton"
+		"fieldName"		"PlayerList"
+		"xpos"			"10"
+		"ypos"			"90"
+		"wide"			"32"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"hovertext"	"Player list"
+		"labelText"		"G"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"concommand"		"gamemenucommand OpenPlayerListDialog"
+		"default"		"1"
+		
+		"font"			"LF_icon"
+    
+    "sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	
+	"SteamChat"
+	{
+		"ControlName"	"ConButton"
+		"fieldName"		"SteamChat"
+		"xpos"			"10"
+		"ypos"			"130"
+		"wide"			"32"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"hovertext"	"Join Steam Chat"
+		"labelText"		"H"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"concommand"	"smod_panel_join_chat_show"
+		"default"		"1"
+		
+		"font"			"LF_icon"
+    
+    "sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+    
+  "ReportBug"
+	{
+		"ControlName"	"ConButton"
+		"fieldName"		"ReportBug"
+		"xpos"			"10"
+		"ypos"			"170"
+		"wide"			"32"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"0"
+		"hovertext"	"Report Bugs (we're working on this)"
+		"labelText"		"H"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"concommand"	"smod_panel_reportbug_show"
+		"default"		"1"
+		
+		"font"			"LF_icon"
+    
+    "sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+}

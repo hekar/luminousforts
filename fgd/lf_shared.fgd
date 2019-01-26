@@ -1,0 +1,99 @@
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+//
+//	Luminous Forts Forge Game Data
+//	Shared Entity Definitions
+//	
+//	Credits:
+//		Hekar Khani
+//		Sam (Arenaceous)
+//
+//	A special thanks to all the past and present developers of the Luminous Forts mod 
+// 	and all the effort they put in
+//	Developing a mod is far harder than it looks (especially with the Source SDK)
+//
+//	If you have any suggestions or requests for other entities
+//		Email: hekark@gmail.com
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+// All these entities are prefixed with lf_* and apply to multiple gamemodes
+
+//================================================================
+// Prop Entities
+//================================================================
+
+//================================================================
+// Item Entities
+//================================================================
+
+//================================================================
+// Point Entities
+//================================================================
+
+//================================================================
+// Logic Entities
+//================================================================
+@PointClass base(Targetname) iconsprite("editor/gamecontrol.vmt") = lf_logic_gamecontrol : "Luminousforts 1.0: GameController"
+[
+	input TogglePhase(void) : "Toggle the phase (Build/Combat)"
+	input SwitchToBuild(void) : "Switch to Build phase"
+	input SwitchToCombat(void) : "Switch to Combat phase"
+	
+  output OnBuildPhase(void) : "On Build Phase"
+  output OnCombatPhase(void) : "On Combat Phase"
+]
+
+@FilterClass base(BaseFilter) iconsprite("editor/filterteam.vmt") = filter_activator_team :
+	"A filter that filters by the team of the activator."
+[
+	filterteam(choices) : "Filter Team Number" : 2 :
+		"The team number to filter by.  If the filter mode is Allow, only entities whose "+
+		"team number matches the given team will pass the filter. If the filter mode is Disallow, "+
+		"all entities EXCEPT those whose team number matches the given team will pass the filter." =
+	[
+		2 : "Blue"
+		3 : "Red"
+	]
+]
+
+//================================================================
+// Info Entities
+//================================================================
+
+@PointClass base(Targetname, Angles, EnableDisable, ThreeTeams) studio("models/editor/playerstart.mdl") = lf_player_spawnpoint : "Luminousforts 1.0: Spawnpoint"
+[
+
+	input Disable(void) : "Disables Spawnpoint"
+	input Enable(void) : "Enables Spawnpoint"
+]
+
+@PointClass iconsprite("editor/copyright.vmt") = lf_copyright : "Luminousforts 1.0: Copyright entity for Mappers"
+[
+	oauthor(string) : "Original Author" : "" : "Original Author of the map"
+	odate(string) : "Original Date" : "" : "Date of Original Author's release"
+	odescription(string) : "Original Description" : "" : "Description by original author of the map"
+	
+	uauthor(string) : "Updated Author" : "" : "Updated Author of the map"
+	udate(string) : "Updated Date" : "" : "Date of Updated Author's release"
+	udescription(string) : "Updated Description" : "" : "Description by updated author of the map"	
+]
+
+@PointClass base(Targetname, Angles, EnableDisable) studio("models/editor/player_red.mdl") = info_player_red : ""
+[
+]
+
+@PointClass base(Targetname, Angles, EnableDisable) studio("models/editor/player_blue.mdl") = info_player_blue : ""
+[
+]
+
+//================================================================
+// Brush and Trigger Entities
+//================================================================
+
+@SolidClass = lf_func_spawndoor : "Luminousforts 1.0: Team based spawn door"
+[
+	team(choices) : "Team" : 2 =
+	[
+		2 : "Blue team may pass through"
+		3 : "Red team may pass through"
+	]
+]

@@ -1,0 +1,59 @@
+LuminousForts
+
+Sample entry for GameConfig.txt
+
+Usually placed in:
+	C:\Program Files\Steam\steamapps\%USERNAME%\sourcesdk\bin\orangebox\bin\GameConfig.txt
+
+
+Windows 32bit
+--------------------------------------------------------------------------------------------------------------------------------------
+		"LuminousForts"
+		{
+			"GameDir"					"C:\Program Files\Steam\steamapps\SourceMods\luminousforts"
+			"hammer"
+			{
+				"GameData0"			"C:\Program Files\Steam\steamapps\SourceMods\luminousforts\sourceforts.fgd"
+				"TextureFormat"			"5"
+				"MapFormat"			"4"
+				"DefaultTextureScale"		"0.250000"
+				"DefaultLightmapScale"	"16"
+				"GameExe"				"C:\Program Files\Steam\steamapps\USERNAME%\source sdk base 2007\hl2.exe"
+				"DefaultSolidEntity"		"func_detail"
+				"BSP"					"C:\Program Files\Steam\steamapps\%USERNAME%\sourcesdk\bin\orangebox\bin\vbsp.exe"
+				"Vis"					"C:\Program Files\Steam\steamapps\%USERNAME%\sourcesdk\bin\orangebox\bin\vvis.exe"
+				"Light"				"C:\Program Files\Steam\steamapps\%USERNAME%\sourcesdk\bin\orangebox\bin\vrad.exe"
+				"GameExeDir"			"C:\Program Files\Steam\steamapps\%USERNAME%\half-life 2"
+				"MapDir"				"C:\Program Files\Steam\steamapps\SourceMods\luminousforts\mapsrc"
+				"BSPDir"				"C:\Program Files\Steam\steamapps\SourceMods\luminousforts\maps"
+				"CordonTexture"			"tools\toolsskybox"
+				"MaterialExcludeCount"	"0"
+			}
+		}
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Windows 64bit
+--------------------------------------------------------------------------------------------------------------------------------------
+      "LuminousForts"
+      {
+         "GameDir"      "C:\Program Files (x86)\Steam\steamapps\SourceMods\luminousforts"
+         "hammer"
+         {
+            "GameData0"      "C:\Program Files(x86)\Steam\steamapps\SourceMods\luminousforts\luminousforts.fgd"
+            "TextureFormat"      "5"
+            "MapFormat"      "4"
+            "DefaultTextureScale"      "0.250000"
+            "DefaultLightmapScale"      "16"
+            "GameExe"      "c:\program files (x86)\Steam\steamapps\%USERNAME%\source sdk base 2007\hl2.exe"
+            "DefaultSolidEntity"      "func_detail"
+            "BSP"      "c:\program files (x86)\Steam\steamapps\%USERNAME%\sourcesdk\bin\source2007\bin\vbsp.exe"
+            "Vis"      "c:\program files (x86)\Steam\steamapps\%USERNAME%\sourcesdk\bin\source2007\bin\vvis.exe"
+            "Light"      "c:\program files (x86)\Steam\steamapps\%USERNAME%\sourcesdk\bin\source2007\bin\vrad.exe"
+            "GameExeDir"      "c:\program files (x86)\Steam\steamapps\%USERNAME%\half-life 2"
+            "MapDir"      "c:\program files (x86)\Steam\steamapps\SourceMods\luminousforts\mapsrc"
+            "BSPDir"      "c:\program files (x86)\Steam\steamapps\SourceMods\luminousforts\maps"
+            "CordonTexture"      "tools\toolsskybox"
+            "MaterialExcludeCount"      "0"
+         }
+      }
+--------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+"tutorial"
+{
+	"wiki"		"http://luminousforts.wikia.com/"
+	"userguide"	"http://luminousforts.wikia.com/wiki/Game_Guide"	
+}

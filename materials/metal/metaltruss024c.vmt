@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmapAlphaBlend
+	"$alphatest" 1
+	"$basetexture" "Metal/metaltruss024c"
+	"$surfaceprop" "metal"
+	"%compilepassbullets" 1
+	"%keywords" "c17industrial,wasteland"
+	"$nocull" "1"
+	$detail "detail/metal_detail_01"
+	$detailscale 4.283
+	$detailblendfactor .65
+	$detailblendmode 0
+}

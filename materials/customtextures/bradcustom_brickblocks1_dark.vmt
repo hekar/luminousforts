@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "CustomTextures/bradcustom_brickblocks1_dark"
+	"$bumpmap" "CustomTextures/bradcustom_brickblocks1_bump"
+	"$surfaceprop" "Concrete"
+	"%keywords" "brad"
+}

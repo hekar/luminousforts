@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+
+	"$basetexture" "Metal/metaltruss014a"
+	"$surfaceprop" "metal"
+	"%keywords" "c17downtown"
+	"%compilepassbullets" 1
+	"$alphatest" 1
+	"$nocull" "1"
+	$detail "detail/metal_detail_01"
+	$detailscale 4.283
+	$detailblendfactor .65
+	$detailblendmode 0
+}

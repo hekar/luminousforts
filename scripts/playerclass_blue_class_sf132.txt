@@ -1,0 +1,28 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"		"Blue"	
+	"playermodel"		"models/police.mdl"
+	"selectcmd"		"cls_blue_class_sf132"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"			"BLUE"
+
+	// Weapon Info
+	"weapon_1"		"sdk_crowbar"
+	"weapon_2"		"hl2_357"
+	"weapon_3"		"hl2_smg"
+	"weapon_4"		"hl2_frag"
+	"weapon_4_ammo"		"5"
+
+	"limitcvar"		"mp_limit_blue_class_sf132"
+
+	"classimage"		"cls_blue_classsniper_active"
+	"classimagebg"		"cls_blue_classsniper_active_bg"
+
+	// Movement
+	"RunSpeed"		"200"
+	"SprintSpeed"		"300"
+}

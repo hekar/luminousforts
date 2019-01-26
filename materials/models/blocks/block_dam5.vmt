@@ -1,0 +1,14 @@
+"vertexlitgeneric"
+{
+	$baseTexture	"models/blocks/block_dam5"
+	$bumpmap	"models/blocks/block_dam5_normal"
+	$envmap		"env_cubemap"
+	$envmaptint	"[.27 .27 .27]"
+	$normalmapalphaenvmapmask 1
+	$surfaceprop	"metal"
+	%keywords	"block"
+	$detail "detail/metal_detail_01"
+	$detailscale 4.283
+	$detailblendfactor .65
+	$detailblendmode 0
+}

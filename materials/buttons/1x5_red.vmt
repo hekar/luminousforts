@@ -1,0 +1,16 @@
+// envmaptint_fix
+"LightmappedGeneric"
+{
+	"$basetexture" "buttons/1x5_red"
+	"$surfaceprop" "metal"
+	"%keywords" "arena"
+
+	"LightmappedGeneric_DX9"
+	{
+		"$bumpmap" "buttons/1x5_norm"
+		"$envmap" "env_cubemap"
+		"$envmapcontrast" 1
+		"$envmapsaturation" 1
+		"$envmaptint" "[ .45 .45 .45 ]"
+	}
+}

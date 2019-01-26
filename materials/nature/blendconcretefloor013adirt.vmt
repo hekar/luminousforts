@@ -1,0 +1,20 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/dirtfloor004a"
+	"$basetexture2" "Concrete/concretefloor013a"
+	"%tooltexture" "Concrete/concretefloor013a"
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "concrete"
+
+	$detail detail\noise_detail_01
+	$detailscale 7.74
+	$detailblendfactor 0.8
+	$detailblendmode 0
+
+	 "LightmappedGeneric_DX9"
+	{
+		"$bumpframe2" "concrete/concretefloor013a_normal"	
+	}
+
+	"%keywords" "arena"
+}

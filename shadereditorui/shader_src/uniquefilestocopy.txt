@@ -1,0 +1,15 @@
+bin\dx_proxy.dll
+..\..\..\..\hekark\sourcesdk\bin\source2007\bin\tier0.dll
+..\..\..\..\hekark\sourcesdk\bin\source2007\bin\vstdlib.dll
+common_fxc.h
+common_hlsl_cpp_consts.h
+common_pragmas.h
+common_ps_fxc.h
+common_vs_fxc.h
+common_vertexlitgeneric_dx9.h
+common_lightmappedgeneric_fxc.h
+common_flashlight_fxc.h
+..\..\..\..\hekark\sourcesdk\bin\source2007\bin\shadercompile.exe
+..\..\..\..\hekark\sourcesdk\bin\source2007\bin\shadercompile_dll.dll
+postproc_filmgrain_vs30.fxc
+postproc_filmgrain_ps30.fxc
