@@ -11,7 +11,7 @@ PlayerClassDatafile
 	"team"			"BLUE"
 
 	// Weapon Info
-	"weapon_1"		"sdk_smg1"
+	"weapon_1"		"hl2_smg1"
 	"weapon_1_ammo"		"250"
 	"weapon_2"		"hl2_357"
 	"weapon_2_ammo"		"6"

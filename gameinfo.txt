@@ -15,12 +15,12 @@
 	hidden_maps {
 		"test_speakers"		1
 		"test_hardware"		1
-		"dm_lockdown"			1
+		"dm_lockdown"		1
 		"dm_overwatch"		1
 		"dm_powerhouse"		1
 		"dm_resistance"		1
-		"dm_runoff"				1
-		"dm_steamlab"			1
+		"dm_runoff"			1
+		"dm_steamlab"		1
 		"dm_underpass"		1
 		"background01"		1
 	}

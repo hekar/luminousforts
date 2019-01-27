@@ -71,7 +71,7 @@ Scheme
 	CustomFontFiles
 	{
 		"9"		"resource/thirdparty_suigenerisfree.ttf"
-		"10"		"resource/luminousfort_game_icon.ttf"
-		"11"		"resource/csd.ttf"
+		"10"	"resource/luminousfort_game_icon.ttf"
+		"11"	"resource/csd.ttf"
 	}
 }
