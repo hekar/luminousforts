@@ -872,4 +872,19 @@
 		"PaintBackgroundType"   "0"
 	}
 	
+	HudHistoryResource
+	{
+		"fieldName" "HudHistoryResource"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"r252"
+		"ypos"	"40"
+		"wide"	 "248"
+		"tall"	 "320"
+
+		"history_gap"	"56"
+		"icon_inset"	"28"
+		"text_inset"	"26"
+		"NumberFont"	"HudNumbersSmall"
+	}
 }

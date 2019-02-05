@@ -37,7 +37,7 @@
 		
 		"font"			"LF_icon"
     
-    "sound_armed"		"UI/buttonrollover.wav"
+    	"sound_armed"		"UI/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -64,7 +64,7 @@
 		
 		"font"			"LF_icon"
     
-    "sound_armed"		"UI/buttonrollover.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -91,7 +91,7 @@
 		
 		"font"			"LF_icon"
     
-    "sound_armed"		"UI/buttonrollover.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -118,7 +118,7 @@
 		
 		"font"			"LF_icon"
     
-    "sound_armed"		"UI/buttonrollover.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

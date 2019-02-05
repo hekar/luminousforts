@@ -1,4 +1,4 @@
-"resource/ui/ClassMenu_Blue.res"
+"resource/ui/ClassMenu_Base_Red.res"
 {
 	"class_red"
 	{

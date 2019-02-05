@@ -1,7 +1,7 @@
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 //
 //	WidgetScheme.res
-//	Luminous Forts
+//	LuminousForts
 //
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
@@ -82,8 +82,8 @@ Scheme
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.BgColor					"Bg.Panel"
 		ListPanel.SelectedTextColor			"Bg.Panel"
-		ListPanel.SelectedBgColor			"Fg.Panel"
-		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
+		ListPanel.SelectedBgColor			"Orange"
+		ListPanel.SelectedOutOfFocusBgColor	"Orange"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
 		Menu.TextColor					"White"
@@ -131,7 +131,7 @@ Scheme
 		SectionedListPanel.SelectedTextColor			"Bg.Panel"
 		SectionedListPanel.SelectedBgColor				"Fg.Panel"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"Fg.Panel"
 
 		Slider.NobColor				"108 108 108 255"
 		Slider.TextColor			"180 180 180 255"
@@ -145,8 +145,8 @@ Scheme
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledBgColor	"Blank"
 		TextEntry.SelectedTextColor	"Black"
-		TextEntry.SelectedBgColor	"Orange"
-		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
+		TextEntry.SelectedBgColor	"255 255 255 128"
+		TextEntry.OutOfFocusSelectedBgColor	"Fg.Panel"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
 
 		ToggleButton.SelectedTextColor	"White"

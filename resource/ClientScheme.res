@@ -1,34 +1,18 @@
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 //
 //	ColorScheme.res
-//	Luminous Forts
+//	LuminousForts
 //
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-//
-// ColorScheme - all the colors used by the scheme
-//
-#base "./Scheme/Client/ColorScheme.res"
-
-//
-// WidgetScheme	- contains settings for app to use to draw controls
-//
-#base "./Scheme/Client/WidgetScheme.res"
-
-//
-// FontScheme - list of all the fonts used by app
-//
-#base "./Scheme/Client/FontScheme.res"
-#base "./Scheme/Client/LuminousFortsFontScheme.res"
-
-//
-// BorderScheme - description of all the borders
-//
-#base "./Scheme/Client/BorderScheme.res"
+#base "./scheme/colorscheme.res"
+#base "./scheme/client/widgetscheme.res"
+#base "./scheme/client/fontscheme.res"
+#base "./scheme/luminousfortsfontscheme.res"
+#base "./scheme/client/borderscheme.res"
 
 Scheme
 {	
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
 	{
 		"1"		"resource/halflife2.ttf"

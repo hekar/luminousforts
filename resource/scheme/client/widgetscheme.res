@@ -1,7 +1,7 @@
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 //
 //	WidgetScheme.res
-//	Luminous Forts
+//	LuminousForts
 //
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
@@ -84,28 +84,28 @@ Scheme
 		GraphPanel.FgColor			"Orange"
 		GraphPanel.BgColor			"TransparentBlack"
 
-		Label.TextDullColor			"Orange"
-		Label.TextColor				"Orange"
-		Label.TextBrightColor			"Orange"
-		Label.SelectedTextColor			"Orange"
+		Label.TextDullColor			"White"
+		Label.TextColor				"White"
+		Label.TextBrightColor			"White"
+		Label.SelectedTextColor			"White"
 		Label.BgColor				"Blank"
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"LightOrange"
 
-		ListPanel.TextColor			"Orange"
+		ListPanel.TextColor			"White"
 		ListPanel.BgColor			"TransparentBlack"
 		ListPanel.SelectedTextColor		"Black"
 		ListPanel.SelectedBgColor		"Red"
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
-		Menu.TextColor				"Orange"
+		Menu.TextColor				"White"
 		Menu.BgColor				"TransparentBlack"
-		Menu.ArmedTextColor			"Orange"
+		Menu.ArmedTextColor			"White"
 		Menu.ArmedBgColor			"Red"
 		Menu.TextInset				"6"
 
-		Chat.TypingText				"Orange"
+		Chat.TypingText				"White"
 
 		ProgressBar.FgColor			"Orange"
 		ProgressBar.BgColor			"TransparentBlack"

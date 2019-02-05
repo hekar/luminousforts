@@ -1,13 +1,13 @@
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 //
-//	Luminous Forts Forge Game Data
+//	LuminousForts Forge Game Data
 //	
 //	Credits:
 //		Hekar Khani
 //		Sam (Arenaceous)
 //
 //	A special thanks to all the great developers of the
-//	Luminous Forts mod and all the effort they put in.
+//	LuminousForts mod and all the effort they put in.
 //	Developing a mod is far harder than it looks (especially with the Source SDK.)
 //
 //	If you have any suggestions or requests for other entities
@@ -25,7 +25,7 @@
 @SolidClass base(Targetname, worldbase, ResponseContext) = worldspawn : 
 	"This is the world entity. Each map can only contain one, and it's automatically created for you."
 [
-	gamemode(choices) : "Luminous Forts Gamemode" : 4 =
+	gamemode(choices) : "LuminousForts Gamemode" : 4 =
 	[
 		4 : "CTF"
 		8 : "Domination"

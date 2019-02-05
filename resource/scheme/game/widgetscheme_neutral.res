@@ -83,8 +83,8 @@ Scheme
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.BgColor					"Bg.Panel"
 		ListPanel.SelectedTextColor			"Bg.Panel"
-		ListPanel.SelectedBgColor			"Fg.Panel"
-		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
+		ListPanel.SelectedBgColor			"Orange"
+		ListPanel.SelectedOutOfFocusBgColor	"Orange"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
 		Menu.TextColor					"White"
@@ -146,7 +146,7 @@ Scheme
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledBgColor	"Blank"
 		TextEntry.SelectedTextColor	"Black"
-		TextEntry.SelectedBgColor	"Orange"
+		TextEntry.SelectedBgColor	"255 255 255 128"
 		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
 
