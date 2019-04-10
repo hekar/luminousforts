@@ -1,9 +1,6 @@
-// Assault Rifle 2
-
 WeaponData
 {
-	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"Pulsated Rifle"
+	"printname"			"Pulsifle"
 	"viewmodel"			"models/weapons/v_irifle.mdl"
 	"playermodel"			"models/weapons/w_irifle.mdl"
 	"anim_prefix"			"ar2"
@@ -21,7 +18,7 @@ WeaponData
 	"primary_ammo"			"AR2"
     "secondary_ammo"	        "None"
 
-	"weight"			"10"
+	"weight"			"15"
 	"item_flags"			"0"
 	"damage"			"13"
 

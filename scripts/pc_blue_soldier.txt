@@ -1,18 +1,11 @@
 PlayerClassDatafile
 {
-	// FilePLayerClassInfo_t members
 	"printname"		"Soldier"	
-	"playermodel"		"models/combine_super_soldier.mdl"
+	"playermodel"	"models/combine_super_soldier.mdl"
 	"selectcmd"		"cls_blue_classsoldier"
-
-	// CSDKPlayerClassInfo members
-
-	// What team has this class, for verification
 	"team"			"BLUE"
-  
-  "Health"    "120"
+  	"Health"	    "140"
 
-	// Weapon Info
 	"weapon_1"		"hl2_ar2"
 	"weapon_1_ammo"		"240"
 	"weapon_2"		"hl2_357"
@@ -26,10 +19,8 @@ PlayerClassDatafile
 	"classimage"		"cls_blue_classsoldier_active"
 	"classimagebg"		"cls_blue_classsoldier_active_bg"
 
-	// Movement
 	"RunSpeed"		"250"
 	"SprintSpeed"		"400"
 	"StaminaDrainRate" 	"30"
 	"StaminaRestoreRate" 	"25"
-
 }

@@ -1,9 +1,6 @@
-// 357
-
 WeaponData
 {
-	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"357 Revolver"
+	"printname"			"Mini Buck"
 	"viewmodel"			"models/weapons/v_357.mdl"
 	"playermodel"		"models/weapons/w_357.mdl"
 	"anim_prefix"		"python"
@@ -13,14 +10,13 @@ WeaponData
 	"fov"				"60"
 
 	"clip_size"			"6"
-	//"default_clip"		"6"
 	"primary_ammo"		"357"
 	"secondary_ammo"	"None"
 
 	"weight"		"5"
-	"item_flags"		"0"
+	"item_flags"	"0"
 
-	"Damage"		"21"
+	"Damage"		"12"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData

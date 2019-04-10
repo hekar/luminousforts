@@ -9,7 +9,6 @@ WeaponData
 	"anim_prefix"			"missile launcher"
 	"bucket"				"2"
 	"bucket_position"		"0"
-	"autoswitchfrom"		"1"
 	
 	"fov"				"60"
 

@@ -1,33 +1,26 @@
 PlayerClassDatafile
 {
-	// FilePLayerClassInfo_t members
 	"printname"		"Scout"	
-	"playermodel"		"models/humans/group03/female_03.mdl"
+	"playermodel"	"models/humans/group03/female_03.mdl"
 	"selectcmd"		"cls_red_classscout"
 
-	// CSDKPlayerClassInfo members
-
-	// What team has this class, for verification
 	"team"			"RED"
 
-	// Weapon Info
 	"weapon_1"		"hl2_smg1"
-	"weapon_1_ammo"		"150"
+	"weapon_1_ammo"	"80"
 	"weapon_2"		"hl2_357"
-	"weapon_2_ammo"		"6"
+	"weapon_2_ammo"	"6"
 	"weapon_3"		"sdk_crowbar"
 	"weapon_4"		"hl2_frag"
-	"weapon_4_ammo" 	"5"
+	"weapon_4_ammo" "2"
 	
 	"limitcvar"		"mp_limit_red_class_scout"
 
 	"classimage"		"cls_red_classscout_active"
 	"classimagebg"		"cls_red_classscout_active_bg"
 
-	// Movement
-	"RunSpeed"		"320"
+	"RunSpeed"			"400"
 	"SprintSpeed"		"450"
 	"StaminaDrainRate" 	"25"
 	"StaminaRestoreRate" 	"20"
-	
 }

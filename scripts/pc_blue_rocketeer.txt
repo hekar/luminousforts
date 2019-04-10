@@ -13,7 +13,7 @@ PlayerClassDatafile
 	// Weapon Info
 	"weapon_1"		"sdk_crowbar"
 	"weapon_2"		"hl2_rpg"
-	"weapon_2_ammo"		"0"
+	"weapon_2_ammo"		"3"
 	"weapon_3"		"hl2_pistol"
 	"weapon_3_ammo"		"144"
 	"weapon_4"		"hl2_frag"
