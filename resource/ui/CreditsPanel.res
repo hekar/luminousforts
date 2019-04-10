@@ -124,7 +124,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Based on Source SDK Base 2007 (OrangeBox)"
+		"labelText"		"Based on Source SDK Base 2013"
 		"textAlignment"	"north"
 		"dulltext"		"0"
 		"brighttext"	"0"
