@@ -137,6 +137,7 @@ Scheme
 	
 	CustomFontFiles
 	{
+		"8"		"resource/marlett.ttf"
 		"9"		"resource/thirdparty_suigenerisfree.ttf"
 		"10"	"resource/luminousfort_game_icon.ttf"
 		"11"	"resource/csd.ttf"

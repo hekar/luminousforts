@@ -6,6 +6,14 @@
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Scheme
 {
+	BaseSettings
+	{
+		// scheme-specific colors
+		MainMenu.TextColor			"TanLight"			[$WIN32]
+		MainMenu.ArmedTextColor			"117 107 94 255"		[$WIN32]
+		MainMenu.Inset				"32"	
+	}
+
 	//////////////////////// FONTS /////////////////////////////
 	//
 	// Valve fonts
@@ -185,7 +193,7 @@ Scheme
 			"1"
 			{
 				"name"		"Lucida Console"
-				"tall"		"10"
+				"tall"		"14"
 				"weight"	"500"
 			}
 		}
@@ -293,7 +301,7 @@ Scheme
 			"1"
 			{
 				"name"		"Lucida Console"
-				"tall"		"10"
+				"tall"		"14"
 				"weight"	"0"
 			}
 		}
@@ -303,7 +311,7 @@ Scheme
 			"1"
 			{
 				"name"		"Lucida Console"
-				"tall"		"10"
+				"tall"		"14"
 				"weight"	"0"
 				"dropshadow" "1"
 			}
@@ -455,31 +463,6 @@ Scheme
 			}
 		}
 	
-	}
-
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	CustomFontFiles
-	{
-		"1"		"resource/halflife2.ttf"
-		"2"		"resource/hl2ep2.ttf"		
-	}
-}
-
-
-Scheme
-{
-	BaseSettings
-	{
-		// scheme-specific colors
-		MainMenu.TextColor			"TanLight"			[$WIN32]
-		MainMenu.ArmedTextColor			"117 107 94 255"		[$WIN32]
-		MainMenu.Inset				"32"	
-	}
-	
-	Fonts
-	{
 		"MainMenuFont"
 		{
 			"1"	[$WIN32]
@@ -878,8 +861,12 @@ Scheme
 		}
 	}
 	
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//
+	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
 	{
-		//"9"		"resource/somecustomfont.ttf"
+		"1"		"resource/halflife2.ttf"
+		"2"		"resource/hl2ep2.ttf"
 	}
 }

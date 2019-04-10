@@ -309,7 +309,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"13"
+				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}

@@ -185,7 +185,7 @@ Scheme
 			"1"
 			{
 				"name"		"Lucida Console"
-				"tall"		"10"
+				"tall"		"14"
 				"weight"	"500"
 			}
 		}
