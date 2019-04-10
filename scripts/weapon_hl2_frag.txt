@@ -6,7 +6,7 @@ WeaponData
 	"playermodel"			"models/weapons/w_grenade.mdl"
 	"anim_prefix"			"Grenade"
 	"bucket"				"3"
-	"bucket_position"		"1"
+	"bucket_position"		"0"
 	
 	"fov"				"60"
 

@@ -3,12 +3,12 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"Shotgun"
+	"printname"	"Sternmeyer"
 	"viewmodel"				"models/weapons/v_shotgun.mdl"
 	"playermodel"			"models/weapons/w_shotgun.mdl"
 	"anim_prefix"			"shotgun"
 	"bucket"				"2"
-	"bucket_position"		"3"
+	"bucket_position"		"0"
 	
 	"fov"				"48"
 
