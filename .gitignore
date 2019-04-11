@@ -1,6 +1,5 @@
 addons/
 modelsounds.cache
-*.so
 *.dbg
 voice_ban.dt
 stats.txt
