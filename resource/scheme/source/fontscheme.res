@@ -28,7 +28,7 @@ Scheme
 			"1"
 			{
 				"name"		"Courier New"
-				"tall"		"10"
+				"tall"		"14"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -39,7 +39,7 @@ Scheme
 			"1"
 			{
 				"name"		"Courier New"
-				"tall"		"7"
+				"tall"		"14"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -49,9 +49,9 @@ Scheme
 			"1"
 			{
 				"name"		 "Lucida Console"
-				"tall"		 "10"
-				"tall_lodef" "15"
-				"tall_hidef" "20"
+				"tall"		 "22"
+				"tall_lodef" "24"
+				"tall_hidef" "32"
 				"weight"	 "0"
 				"outline"	 "1"
 			}

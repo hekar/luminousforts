@@ -1,5 +1,5 @@
 "Resource/HudLayout.res"
-{	
+{
 	overview
 	{
 		"fieldname"				"overview"
@@ -10,7 +10,7 @@
 		"wide"					"0"
 		"tall"					"0"
 	}
-	
+
 	TargetID
 	{
 		"fieldName" "TargetID"
@@ -75,7 +75,7 @@
 		"digit_xpos" "36"
 		"digit_ypos" "2"
 	}
-	
+
 	HudPosture
 	{
 		"fieldName" 		"HudPosture"
@@ -89,7 +89,7 @@
 		"icon_xpos"	"10"
 		"icon_ypos" 	"0"
 	}
-	
+
 	HudFlashlight
 	{
 		"fieldName" "HudFlashlight"
@@ -99,14 +99,14 @@
 		"ypos"	"444"		[$WIN32]
 		"xpos_hidef"	"293"		[$X360]		// aligned to left
 		"xpos_lodef"	"c-18"		[$X360]		// centered in screen
-		"ypos"	"428"		[$X360]				
+		"ypos"	"428"		[$X360]
 		"tall"  "24"
 		"wide"	"36"
 		"font"	"WeaponIconsSmall"
-		
+
 		"icon_xpos"	"4"
 		"icon_ypos" "-8"
-		
+
 		"BarInsetX" "4"
 		"BarInsetY" "18"
 		"BarWidth" "28"
@@ -114,7 +114,7 @@
 		"BarChunkWidth" "2"
 		"BarChunkGap" "1"
 	}
-	
+
 	HudVoiceSelfStatus
 	{
 		"fieldName" "HudVoiceSelfStatus"
@@ -150,7 +150,7 @@
 
 		"PaintBackgroundType" "0"
 	}
-	
+
 	HudDamageIndicator
 	{
 		"fieldName" "HudDamageIndicator"
@@ -158,7 +158,7 @@
 		"enabled" "1"
 		"DmgColorLeft" "255 0 0 0"
 		"DmgColorRight" "255 0 0 0"
-		
+
 		"dmg_xpos" "30"
 		"dmg_ypos" "100"
 		"dmg_wide" "36"
@@ -175,10 +175,10 @@
 		"Circle2Radius"	"74"
 		"DashGap"	"16"
 		"DashHeight" "4"	[$WIN32]
-		"DashHeight" "6"	[$X360]		
+		"DashHeight" "6"	[$X360]
 		"BorderThickness" "88"
 	}
-	
+
 	HudWeaponSelection
 	{
 		"fieldName" "HudWeaponSelection"
@@ -264,7 +264,7 @@
 		"wide"	 "f0"
 		"tall"	 "480"
 	}
-	
+
 	HudGameMessage
 	{
 		"fieldName" "HudGameMessage"
@@ -378,7 +378,7 @@
 		"center_x"				"0"	// center text horizontally
 		"center_y"				"-1"	// align text on the bottom
 		"paintbackground"		"0"
-	}	
+	}
 
 	HudHintKeyDisplay
 	{
@@ -446,7 +446,7 @@
 		"TextColor"	"255 255 255 192"
 
 	}
-	
+
 	HUDAutoAim
 	{
 		"fieldName" "HUDAutoAim"
@@ -466,9 +466,9 @@
 		"tall"  "40"
 		"visible" "1"
 		"enabled" "1"
-		
+
 		"PaintBackgroundType"	"2"
-		
+
 		"bar_xpos"		"50"
 		"bar_ypos"		"20"
 		"bar_height"	"8"
@@ -477,14 +477,14 @@
 		"speaker_ypos"	"8"
 		"count_xpos_from_right"	"10"	// Counts from the right side
 		"count_ypos"	"8"
-		
+
 		"icon_texture"	"vgui/hud/icon_commentary"
 		"icon_xpos"		"0"
-		"icon_ypos"		"0"		
+		"icon_ypos"		"0"
 		"icon_width"	"40"
 		"icon_height"	"40"
 	}
-	
+
 	HudHDRDemo
 	{
 		"fieldName" "HudHDRDemo"
@@ -494,23 +494,23 @@
 		"tall"  "480"
 		"visible" "1"
 		"enabled" "1"
-		
+
 		"Alpha"	"255"
 		"PaintBackgroundType"	"2"
-		
+
 		"BorderColor"	"0 0 0 255"
 		"BorderLeft"	"16"
 		"BorderRight"	"16"
 		"BorderTop"		"16"
 		"BorderBottom"	"64"
 		"BorderCenter"	"0"
-		
+
 		"TextColor"		"255 255 255 255"
 		"LeftTitleY"	"422"
 		"RightTitleY"	"422"
 	}
 
-	AchievementNotificationPanel	
+	AchievementNotificationPanel
 	{
 		"fieldName"				"AchievementNotificationPanel"
 		"visible"				"1"
@@ -521,7 +521,7 @@
 		"wide"					"f60"	[$X360]
 		"tall"					"100"
 	}
-    
+
     HudFlagCarrier
     {
  		"fieldName" "HudFlagCarrier"
@@ -531,10 +531,10 @@
 		"tall"  "80"
 		"visible" "1"
 		"enabled" "1"
-		
+
         "BlueTextColor"     "0 128 220 255"
         "BlueBackgroundColor"	"0 0 0 0"
-		
+
         "BlueAvatarX"        "10"
         "BlueAvatarY"        "43"
         "BlueTextX"          "40"
@@ -542,11 +542,11 @@
 		"BlueRectX"			"2"
 		"BlueRectY"			"40"
 		"BlueRectWidth"		"142"
-		"BlueRectHeight"		"26"		
-				
+		"BlueRectHeight"		"26"
+
         "RedTextColor"     "128 32 16 255"
         "RedBackgroundColor"	"0 0 0 0"
-		
+
         "RedAvatarX"       "10"
         "RedAvatarY"       "5"
         "RedTextX"         "40"
@@ -554,11 +554,14 @@
 		"RedRectX"			"2"
 		"RedRectY"			"2"
 		"RedRectWidth"		"142"
-		"RedRectHeight"	"26"		
-		
+		"RedRectHeight"	"26"
+
+		"BlueBorder" "1"
+		"RedBorder" "1"
+
 		"PaintBackgroundType"	"2"
-    } 
-    
+    }
+
     HudDomScore
     {
  		"fieldName" "HudDomScore"
@@ -568,30 +571,30 @@
 		"tall"  "80"
 		"visible" "1"
 		"enabled" "1"
-		
+
         "BlueTextColor"     "0 128 220 255"
         "BlueBackgroundColor"	"0 0 0 0"
-		
+
         "BlueTextX"          "20"
         "BlueTextY"          "47"
 		"BlueRectX"			"2"
 		"BlueRectY"			"40"
 		"BlueRectWidth"		"142"
-		"BlueRectHeight"		"26"		
-				
+		"BlueRectHeight"		"26"
+
         "RedTextColor"     "128 32 16 255"
         "RedBackgroundColor"	"0 0 0 0"
-		
+
         "RedTextX"         "20"
         "RedTextY"         "9"
 		"RedRectX"			"2"
 		"RedRectY"			"2"
 		"RedRectWidth"		"142"
 		"RedRectHeight"	"26"
-		
+
 		"PaintBackgroundType"	"2"
     }
-    
+
     HudPhaseTime
     {
  		"fieldName" "HudPhaseTime"
@@ -599,9 +602,9 @@
 		"tall"  "60"
 		"visible" "1"
 		"enabled" "1"
-		
+
         "RightJustify"  "1"
-        
+
         "TimerX"        "10"
         "TimerY"        "11"
         "BlockPointsX"  "60"
@@ -617,21 +620,21 @@
 
 		"PhaseColorBlue"	"0 128 220 255"
 		"PhaseColorRed"		"128 32 16 255"
-		
+
 		"BorderColorBlue"	"0 128 220 128"
 		"BorderColorRed"	"128 32 16 144"
-        
+
         "BackgroundColorBlue"    "0 0 0 160"
         "BackgroundColorRed"    "0 0 0 160"
-                
+
 		"BackgroundRectX"		"r230"
 		"BackgroundRectY"		"10"
 		"BackgroundRectWidth"	"200"
 		"BackgroundRectHeight"	"32"
-		
+
 		"PaintBackgroundType"	"2"
     }
-	
+
 	HudBlockHealth
 	{
 		"fieldName" "HudBlockHealth"
@@ -639,20 +642,20 @@
 		"enabled" "1"
 		"wide"	 "f0"
 		"tall"	 "480"
-        
+
         "CenterBesideCrosshair"    "1"
-        
+
         "BackgroundColorBlue"    "0 0 0 200"
         "BackgroundColorRed"    "0 0 0 200"
         "BorderColorBlue"    "0 0 0 200"
-        "BorderColorRed"    "0 0 0 200"        
-		
+        "BorderColorRed"    "0 0 0 200"
+
 		"BackgroundRectX"		"r230"
 		"BackgroundRectY"		"10"
 		"BackgroundRectWidth"	"170"
-		"BackgroundRectHeight"	"32"        
+		"BackgroundRectHeight"	"32"
 	}
-	
+
 	HudPlayerHealth
 	{
 		"fieldName" "HudPlayerHealth"
@@ -662,12 +665,12 @@
 		"ypos"	"r32"
 		"wide"	"244"
 		"tall"	"24"
-		
+
         "BarColorBlue" "0 128 220 128"
         "BarColorRed" "128 32 16 144"
-        
+
 		"BackgroundAlpha" "230"
-		
+
 		"BarInsetX" "4"
 		"BarInsetY" "4"
 		"BarWidth" "240"
@@ -680,7 +683,7 @@
 
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	HudSuitPower
 	{
 		"fieldName" "HudSuitPower"
@@ -690,12 +693,12 @@
 		"ypos"	"r44"
 		"wide"	"144"
 		"tall"	"12"
-		
+
 		"ShowText" "0"
-		
+
         "StaminaColorBlue" "0 128 220 128"
         "StaminaColorRed" "128 32 16 144"
-            
+
 		"BarInsetX" "4"
 		"BarInsetY" "4"
 		"BarWidth" "140"
@@ -707,8 +710,8 @@
 		"TextY" "7"
 
 		"PaintBackgroundType"	"0"
-	}	
-	
+	}
+
 	HudFreeze
 	{
 		"fieldName" "HudFreeze"
@@ -718,7 +721,7 @@
 		"ypos"	"227"
 		"wide"	"102"
 		"tall"	"26"
-		
+
 		"Background" "255 0 0 220"
         "ProgressBackground" "255 0 0 220"
 		"ProgressForeground" "0 0 255 220"
@@ -732,7 +735,7 @@
 
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	HudFlagLocations
     {
 		"fieldName"      "HudFlagLocations"
@@ -745,7 +748,7 @@
 
 		"PaintBackgroundType"   "0"
     }
-	
+
 	HudFlagCompasses
     {
 		"fieldName"      "HudFlagCompasses"
@@ -758,7 +761,7 @@
 
 		"PaintBackgroundType"   "0"
     }
-    
+
 	HudFreezeStatus
 	{
 		"fieldName" "HudFreezeStatus"
@@ -769,29 +772,29 @@
 
         // offset from background.
         "FrozenTextX" "8"
-        "FrozenTextY" "8"        
-        
+        "FrozenTextY" "8"
+
         // again; offset from background.
         "UnFrozenTextX" "8"
         "UnFrozenTextY" "28"
-                
+
         "BackgroundColorBlue"    "0 0 0 0"
         "BackgroundColorRed"    "0 0 0 0"
-		
+
         "BorderColorBlue"    "0 0 0 0"
         "BorderColorRed"    "0 0 0 0"
-                
+
 		"BackgroundRectX_BuildPhase"     "10"
 		"BackgroundRectY_BuildPhase"	 "10"
 		"BackgroundRectWidth_BuildPhase" "170"
 		"BackgroundRectHeight_BuildPhase" "54"
-        
+
 		"BackgroundRectX_CombatPhase"     "10"
 		"BackgroundRectY_CombatPhase"	 "120"
 		"BackgroundRectWidth_CombatPhase" "170"
 		"BackgroundRectHeight_CombatPhase" "54"
 	}
-	
+
 	HudFreezeProgress
 	{
 		"fieldName"	"HudFreezeProgress"
@@ -801,15 +804,15 @@
 		"ypos"		"r200"
 		"wide"		"122"
 		"tall"		"44"
-		
+
 		"RedBarForeground" 	"128 32 16 214"
 		"BlueBarForeground" "0 128 220 228"
 		"BarBackground" "0 0 0 192"
 		"Background"	"0 0 0 128"
-		
+
 		"RedBorder"		"128 32 16 214"
 		"BlueBorder"	"0 128 220 228"
-		
+
 		"X"			"0"
 		"Y"			"0"
 		"Width"		"120"
@@ -820,7 +823,7 @@
 		"BarWidth"	"94"
 		"BarHeight"	"16"
 	}
-	
+
 	// HudPlayerMarkers
 	// {
 		// "fieldName"      "HudPlayerMarkers"
@@ -833,7 +836,7 @@
 
 		// "PaintBackgroundType"   "0"
 	// }
-	
+
 	HudCapPoints
 	{
 		"fieldName"		"HudCapPoints"
@@ -843,22 +846,22 @@
 		"tall"	"28"
 		"visible" "1"
 		"enabled" "1"
-		
+
 		"PaintBackgroundType" "0"
-		
+
 		"BorderColorBlue"	"0 128 220 255"
 		"BorderColorRed"	"128 32 16 255"
 		"BorderColorSpec"	"128 128 128 255"
-		
+
 		"ProgressColorBlue"	"0 128 220 192"
 		"ProgressColorRed"	"128 32 16 192"
 		"ProgressColorSpec"	"128 128 128 32"
-		
+
 		"GapWidth"	"12"
 		"BarWidth"	"28"
 		"BarHeight"	"28"
 	}
-	
+
 	HudCapPos
 	{
 		"fieldName"      "HudCapPos"
@@ -871,7 +874,7 @@
 
 		"PaintBackgroundType"   "0"
 	}
-	
+
 	HudHistoryResource
 	{
 		"fieldName" "HudHistoryResource"
