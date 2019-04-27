@@ -1,21 +1,4 @@
-//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-//
-//	LuminousForts Forge Game Data
-//	Dominatioon Gamemode
-//	
-//	Credits:
-//		Hekar Khani
-//
-//	A special thanks to all the past and present developers of the LuminousForts mod 
-// 	and all the effort they put in
-//	Developing a mod is far harder than it looks (especially with the Source SDK)
-//
-//	If you have any suggestions or requests for other entities
-//		Email: hekark@gmail.com
-//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-
-// All these entities are prefixed with lfb_*
+// All these entities are prefixed with lfd_*
 
 //================================================================
 // Prop Entities

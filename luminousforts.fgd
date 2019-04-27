@@ -1,20 +1,4 @@
-//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-//
-//	LuminousForts Forge Game Data
-//	
-//	Credits:
-//		Hekar Khani
-//		Sam (Arenaceous)
-//
-//	A special thanks to all the great developers of the
-//	LuminousForts mod and all the effort they put in.
-//	Developing a mod is far harder than it looks (especially with the Source SDK.)
-//
-//	If you have any suggestions or requests for other entities
-//		Email: hekark@gmail.com
-//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-// luminousfortsbase.fgd hasn't actually been edited, so don't be scared (yet, if anyway)
+// luminousfortsbase.fgd is copied from hl2dm
 @include "fgd/luminousfortsbase.fgd"
 
 @include "fgd/lf_classic.fgd"
@@ -30,6 +14,6 @@
 		4 : "CTF"
 		8 : "Domination"
 		536870912 : "Sourceforts 194"
-    1073741824 : "Sourceforts 132"
+		1073741824 : "Sourceforts 132"
 	]
 ]
