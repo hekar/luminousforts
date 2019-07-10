@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	// Original shader: BaseTimesLightmap
-	"$basetexture" "Props/container1_side2"
-	"$bumpmap" "Props/container1_side_normal2"
-	"$surfaceprop" "metalpanel"
-}

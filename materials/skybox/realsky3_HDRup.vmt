@@ -1,7 +1,0 @@
-"sky"
-{
-    "$hdrcompressedTexture" "skybox/realsky3_hdrup"
-    "$nofog" "1"
-    "$ignorez" "1"
-    "$basetexture" "skybox/realsky3up"
-}

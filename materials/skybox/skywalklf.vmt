@@ -1,7 +1,0 @@
-"UnlitGeneric"
- {
- "$basetexture" "skybox/Skywalklf"
- "$hdrbasetexture" "skybox/Skywalklf"
- "$nofog" "1"
- "$ignorez" "1"
- }

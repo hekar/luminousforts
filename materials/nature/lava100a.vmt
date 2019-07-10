@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "nature/lava100a"
-	"$normalmap" "nature/lavarock100a_normal"
-	"$surfaceprop" "rock"
-	"%keywords" "vix"
-}
