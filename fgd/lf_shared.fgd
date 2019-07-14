@@ -15,7 +15,7 @@
 //================================================================
 // Logic Entities
 //================================================================
-@PointClass base(Targetname) iconsprite("editor/gamecontrol.vmt") = lf_logic_gamecontrol : "Luminousforts 1.0: GameController"
+@PointClass base(Targetname) iconsprite("editor/gamecontrol.vmt") = lf_logic_gamecontrol : "Luminousforts: GameController"
 [
 	input TogglePhase(void) : "Toggle the phase (Build/Combat)"
 	input SwitchToBuild(void) : "Switch to Build phase"
@@ -42,14 +42,13 @@
 // Info Entities
 //================================================================
 
-@PointClass base(Targetname, Angles, EnableDisable, ThreeTeams) studio("models/editor/playerstart.mdl") = lf_player_spawnpoint : "Luminousforts 1.0: Spawnpoint"
+@PointClass base(Targetname, Angles, EnableDisable, ThreeTeams) studio("models/editor/playerstart.mdl") = lf_player_spawnpoint : "Luminousforts: Spawnpoint"
 [
-
 	input Disable(void) : "Disables Spawnpoint"
 	input Enable(void) : "Enables Spawnpoint"
 ]
 
-@PointClass iconsprite("editor/copyright.vmt") = lf_copyright : "Luminousforts 1.0: Copyright entity for Mappers"
+@PointClass iconsprite("editor/copyright.vmt") = lf_copyright : "Luminousforts: Copyright entity for Mappers"
 [
 	oauthor(string) : "Original Author" : "" : "Original Author of the map"
 	odate(string) : "Original Date" : "" : "Date of Original Author's release"
@@ -72,7 +71,7 @@
 // Brush and Trigger Entities
 //================================================================
 
-@SolidClass = lf_func_spawndoor : "Luminousforts 1.0: Team based spawn door"
+@SolidClass = lf_func_spawndoor : "Luminousforts: Team based spawn door"
 [
 	team(choices) : "Team" : 2 =
 	[

@@ -5,6 +5,7 @@
 @include "fgd/lf_custom.fgd"
 @include "fgd/lf_domination.fgd"
 @include "fgd/lf_shared.fgd"
+@include "fgd/lf_survival.fgd"
 
 @SolidClass base(Targetname, worldbase, ResponseContext) = worldspawn : 
 	"This is the world entity. Each map can only contain one, and it's automatically created for you."

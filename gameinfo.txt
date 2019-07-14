@@ -1,5 +1,5 @@
 "GameInfo" {
-	game		"LuminousForts 0.1"
+	game		"LuminousForts 0.2"
 	title		""
 	title2		""
 	icon		"resource\icon"

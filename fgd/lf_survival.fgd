@@ -1,0 +1,20 @@
+// All these entities are prefixed with lfs_*
+
+
+@PointClass base(Targetname, EnableDisable) studio("models/editor/.mdl") = lfs_ai_director : "Luminousforts: Ai Director"
+[
+	input Disable(void) : "Disables Spawnpoint"
+	input Enable(void) : "Enables Spawnpoint"
+]
+
+@PointClass base(Targetname, EnableDisable) studio("models/editor/.mdl") = lfs_ai_spawn_node : "Luminousforts: Ai Spawn Node"
+[
+	input Disable(void) : "Disables Spawnpoint"
+	input Enable(void) : "Enables Spawnpoint"
+]
+
+@PointClass base(Targetname, EnableDisable) studio("models/editor/.mdl") = lfs_ai_power_core : "Luminousforts: Ai Spawn Node"
+[
+	input Disable(void) : "Disables Spawnpoint"
+	input Enable(void) : "Enables Spawnpoint"
+]
