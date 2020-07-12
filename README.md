@@ -18,9 +18,7 @@ Automated builds and installers are not yet available for Windows.
 
 The game can easily be installed by downloading this repository from the releases page.
 
-## State of the Game
-
-Older video of the game
+## Video
 
 [![Introduction](https://img.youtube.com/vi/x2ItPebIBZY/0.jpg)](https://www.youtube.com/watch?v=x2ItPebIBZY)
 
