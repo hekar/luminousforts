@@ -2,6 +2,12 @@
 
 Modification of the Source SDK 2013 to create a series of experimental gameplay centered around fort building. The basis being the gameplay of the original Sourceforts.
 
+[Website](https://hekar.github.io/luminousforts-website/)
+
+## Source Code
+
+https://github.com/hekar/luminousforts-2013/
+
 ## Installation
 
 Linux and Windows are supported. Work is being done on macOS builds, but it may take sometime.
@@ -27,6 +33,6 @@ Older video of the game
 
 ## Contributing
 
-Join the [Steam](https://steamcommunity.com/groups/LuminousForts) or [Discord]() community
+Join the [Steam](https://steamcommunity.com/groups/LuminousForts) community
 
 The main focus on work is not necessarily what is added to the game, but that additional defects and issues are not added to the game. If developing experimental functionality please ensure that it can be feature toggled.
